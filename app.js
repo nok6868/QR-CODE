@@ -4,7 +4,7 @@ const qrImg = document.getElementById("img");
 
 function downloadImage(){
     var input = document.getElementById("data").value;
-    var name = "QR-CODE "
+    var name = "QR "
     var url = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+input
       fetch(url)
         .then(resp => resp.blob())
@@ -19,7 +19,7 @@ function downloadImage(){
             a.click();
             window.URL.revokeObjectURL(url);
         })
-        .catch(() => alert('กรุณากรอกข้อมูลแล้วสร้าง QR-CODE ก่อน'));
+        .catch(() => alert('กรุณากรอกข้อมูลแล้วสร้าง QR CODE ก่อน'));
 }
 
 button.addEventListener("click", ()=>{
