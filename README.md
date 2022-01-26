@@ -1,7 +1,1 @@
-# Javascript QR code generator
-
-This is a simple QR code generator app using Javascript.
-
-Feel free to make changes or use it
-
-Cheers!
+[README.md](https://github.com/nok6868/QR-CODE/files/7943464/README.md)
