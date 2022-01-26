@@ -1,0 +1,94 @@
+@page{
+  size: Auto;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: linear-gradient(to right top, #d651c5, #c75ed0, #b86ad9, #a873e0, #977ce4, #8688ed, #7594f3, #649ef6, #51affc, #47befe, #4dccfd, #5fd9fb); */
+  background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+  /* background-image: url('xxxx'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  font-family: 'Itim', cursive;
+  padding: 25px;
+  border-radius: 30px;
+  width: 350px;
+  border: 1px solid rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255); */
+  /* background-color: rgb(186 85 211); */
+  background-image: linear-gradient(to right top, #d651c5, #c75ed0, #b86ad9, #a873e0, #977ce4, #8688ed, #7594f3, #649ef6, #51affc, #47befe, #4dccfd, #5fd9fb);
+
+}
+.form-control {
+  margin-bottom: 50px;
+}
+
+#print {
+  margin-bottom: 20px;
+}
+
+
+.form-control input {
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.form-control input:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 247, 255);
+}
+
+.form-control button {
+  display: block;
+  cursor: pointer;
+  padding: 10px 5px;
+  width: 100%;
+  background-color: rgba(8, 253, 0, 0.904);
+  color: rgb(255, 0, 0);
+  border: 0;
+  border-radius: 15px;
+}
+
+#print{
+  display: none;
+  visibility: none;
+}
+
+
+#print {
+  display: block;
+  cursor: pointer;
+  padding: 5px 5px;
+  width: 50%;
+  background-color: rgb(102, 19, 235);
+  color: rgb(0, 0, 0);
+  border: 0;
+  border-radius: 15px;
+}
+
+
+
+#img {
+  width: 98%;
+  margin-top: 9px;
+}
